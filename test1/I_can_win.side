@@ -1,0 +1,150 @@
+{
+  "id": "c753c001-94b4-4e33-ab1e-2c1898da91ed",
+  "version": "2.0",
+  "name": "I can win",
+  "url": "https://pastebin.com",
+  "tests": [{
+    "id": "a91c38c3-6f9f-4678-ab95-d4f0850d6e85",
+    "name": "Untitled",
+    "commands": [{
+      "id": "fa0caf67-a742-4173-99e3-d49cd081e78f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "060eec42-5086-4e84-b9d0-1e56a16e2d66",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c23e5126-6b21-4523-82c9-5c7062e8f337",
+      "comment": "",
+      "command": "click",
+      "target": "id=postform-text",
+      "targets": [
+        ["id=postform-text", "id"],
+        ["name=PostForm[text]", "name"],
+        ["css=#postform-text", "css:finder"],
+        ["xpath=//textarea[@id='postform-text']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4be02df-4835-4c05-ae23-aa58fbe8350a",
+      "comment": "",
+      "command": "type",
+      "target": "id=postform-text",
+      "targets": [
+        ["id=postform-text", "id"],
+        ["name=PostForm[text]", "name"],
+        ["css=#postform-text", "css:finder"],
+        ["xpath=//textarea[@id='postform-text']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hello from WebDriver"
+    }, {
+      "id": "07740908-6968-461d-b0ad-6f7ee6409acc",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-postform-expiration-container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0acccef6-6009-4c77-8ee2-d05fc429babd",
+      "comment": "",
+      "command": "click",
+      "target": "//li[text()=\"10 Minutes\"]",
+      "targets": [
+        ["id=select2-postform-expiration-container", "id"],
+        ["css=#select2-postform-expiration-container", "css:finder"],
+        ["xpath=//span[@id='select2-postform-expiration-container']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[5]/div/div[4]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73374ff-0749-4150-accf-12f9dd4c458a",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-postform-status-container",
+      "targets": [
+        ["id=select2-postform-status-container", "id"],
+        ["css=#select2-postform-status-container", "css:finder"],
+        ["xpath=//span[@id='select2-postform-status-container']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[5]/div/div[5]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de6db29b-3a20-4488-92a9-bfb4e79aba6e",
+      "comment": "",
+      "command": "click",
+      "target": "//li[text()=\"Private\"]",
+      "targets": [
+        ["id=select2-postform-status-container", "id"],
+        ["css=#select2-postform-status-container", "css:finder"],
+        ["xpath=//span[@id='select2-postform-status-container']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[5]/div/div[5]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "603c593a-f94b-41d7-b0d8-8789f14cf8dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=postform-name",
+      "targets": [
+        ["id=postform-name", "id"],
+        ["name=PostForm[name]", "name"],
+        ["css=#postform-name", "css:finder"],
+        ["xpath=//input[@id='postform-name']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[5]/div/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8bd2b17-753a-48aa-ad18-52ba7a5eb14e",
+      "comment": "",
+      "command": "type",
+      "target": "id=postform-name",
+      "targets": [
+        ["id=postform-name", "id"],
+        ["name=PostForm[name]", "name"],
+        ["css=#postform-name", "css:finder"],
+        ["xpath=//input[@id='postform-name']", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[5]/div/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": "helloweb"
+    }, {
+      "id": "b8cacb53-a28c-4f69-9c63-3731aee92d33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-big",
+      "targets": [
+        ["css=.-big", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='w0']/div[5]/div/div[11]/button", "xpath:idRelative"],
+        ["xpath=//div[11]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create New Paste')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c15fd47-db6d-4d51-97b7-e054d4aae53d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a91c38c3-6f9f-4678-ab95-d4f0850d6e85"]
+  }],
+  "urls": ["https://pastebin.com/"],
+  "plugins": []
+}
